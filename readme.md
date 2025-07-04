@@ -1,6 +1,8 @@
 # 🏁 Mario Kart Terminal Race
 
-![Mario Kart Header](./docs/header.gif)
+<p align="center">
+  <img src="./docs/header.gif" alt="Mario Kart Header" width="180" />
+</p>
 
 ## 🧠 Sobre o Projeto
 
@@ -12,14 +14,44 @@ A lógica foi construída com foco em simulação e aleatoriedade, misturando so
 
 ## 🎮 Personagens Jogáveis
 
-| Personagem      | Atributos                                      | Preview                     |
-|-----------------|------------------------------------------------|-----------------------------|
-| **Mario**       | Velocidade: 4<br>Manobrabilidade: 3<br>Poder: 3 | ![Mario](./docs/mario.gif)       |
-| **Peach**       | Velocidade: 3<br>Manobrabilidade: 4<br>Poder: 2 | ![Peach](./docs/peach.gif)       |
-| **Yoshi**       | Velocidade: 2<br>Manobrabilidade: 4<br>Poder: 3 | ![Yoshi](./docs/yoshi.gif)       |
-| **Bowser**      | Velocidade: 5<br>Manobrabilidade: 2<br>Poder: 5 | ![Bowser](./docs/bowser.gif)     |
-| **Luigi**       | Velocidade: 3<br>Manobrabilidade: 4<br>Poder: 4 | ![Luigi](./docs/luigi.gif)       |
-| **Donkey Kong** | Velocidade: 2<br>Manobrabilidade: 2<br>Poder: 5 | ![Donkey Kong](./docs/dk.gif)    |
+<p align="center">
+  <table>
+    <tr>
+      <td style="text-align:center;">
+        <p><b>Mario</b></p>
+        <img src="./docs/mario.gif" alt="Mario" width="60" height="60" />
+        <p>Velocidade: 4<br>Manobrabilidade: 3<br>Poder: 3</p>
+      </td>
+      <td style="text-align:center;">
+        <p><b>Peach</b></p>
+        <img src="./docs/peach.gif" alt="Peach" width="60" height="60" />
+        <p>Velocidade: 3<br>Manobrabilidade: 4<br>Poder: 2</p>
+      </td>
+      <td style="text-align:center;">
+        <p><b>Yoshi</b></p>
+        <img src="./docs/yoshi.gif" alt="Yoshi" width="60" height="60" />
+        <p>Velocidade: 2<br>Manobrabilidade: 4<br>Poder: 3</p>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:center;">
+        <p><b>Bowser</b></p>
+        <img src="./docs/bowser.gif" alt="Bowser" width="60" height="60" />
+        <p>Velocidade: 5<br>Manobrabilidade: 2<br>Poder: 5</p>
+      </td>
+      <td style="text-align:center;">
+        <p><b>Luigi</b></p>
+        <img src="./docs/luigi.gif" alt="Luigi" width="60" height="60" />
+        <p>Velocidade: 3<br>Manobrabilidade: 4<br>Poder: 4</p>
+      </td>
+      <td style="text-align:center;">
+        <p><b>Donkey Kong</b></p>
+        <img src="./docs/dk.gif" alt="Donkey Kong" width="60" height="60" />
+        <p>Velocidade: 2<br>Manobrabilidade: 2<br>Poder: 5</p>
+      </td>
+    </tr>
+  </table>
+</p>
 
 ---
 
@@ -42,15 +74,17 @@ A lógica foi construída com foco em simulação e aleatoriedade, misturando so
 
 ## ▶️ Como Executar
 
-Para executar este projeto, você precisa ter o Node.js instalado no seu computador. Caso não tenha, acesse [nodejs.org](https://nodejs.org/) e faça o download da versão recomendada para seu sistema operacional. 
+Para executar este projeto, você precisa ter o Node.js instalado no seu computador. Caso não tenha, acesse [nodejs.org](https://nodejs.org/) e faça o download da versão recomendada para seu sistema operacional.
 
 Depois, siga estes passos:
 
 1. Clone o repositório para sua máquina local utilizando o comando `git clone` seguido do endereço do repositório.
-2. Entre na pasta do projeto com o comando `cd` e o nome da pasta criada pelo clone.
-3. Finalmente, execute o arquivo principal `index.js` usando o comando `node index.js`.
 
-Assim, o minigame será iniciado diretamente no seu terminal, onde você poderá acompanhar as rodadas, os resultados dos dados, e a pontuação dos personagens.
+2. Entre na pasta do projeto com o comando `cd` e o nome da pasta criada pelo clone.
+
+3. Finalmente, execute o arquivo principal `index.js` que está dentro da pasta `src` usando o comando `node src/index.js`.
+
+Assim, o minigame será iniciado diretamente no seu terminal, onde você poderá acompanhar as rodadas, os resultados dos dados e a pontuação dos personagens.
 
 ---
 
