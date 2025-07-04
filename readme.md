@@ -4,6 +4,8 @@
   <img src="./docs/header.gif" alt="Mario Kart Header" width="180" />
 </p>
 
+<div align="center">
+
 ## 🧠 Sobre o Projeto
 
 Este é um minigame de terminal desenvolvido em Node.js que simula corridas entre personagens do universo Mario Kart. Dois competidores disputam uma pista com rodadas aleatórias, onde atributos como **velocidade**, **manobrabilidade** e **poder** definem os resultados.
@@ -14,44 +16,44 @@ A lógica foi construída com foco em simulação e aleatoriedade, misturando so
 
 ## 🎮 Personagens Jogáveis
 
-<p align="center">
-  <table>
-    <tr>
-      <td style="text-align:center;">
-        <p><b>Mario</b></p>
-        <img src="./docs/mario.gif" alt="Mario" width="60" height="60" />
-        <p>Velocidade: 4<br>Manobrabilidade: 3<br>Poder: 3</p>
-      </td>
-      <td style="text-align:center;">
-        <p><b>Peach</b></p>
-        <img src="./docs/peach.gif" alt="Peach" width="60" height="60" />
-        <p>Velocidade: 3<br>Manobrabilidade: 4<br>Poder: 2</p>
-      </td>
-      <td style="text-align:center;">
-        <p><b>Yoshi</b></p>
-        <img src="./docs/yoshi.gif" alt="Yoshi" width="60" height="60" />
-        <p>Velocidade: 2<br>Manobrabilidade: 4<br>Poder: 3</p>
-      </td>
-    </tr>
-    <tr>
-      <td style="text-align:center;">
-        <p><b>Bowser</b></p>
-        <img src="./docs/bowser.gif" alt="Bowser" width="60" height="60" />
-        <p>Velocidade: 5<br>Manobrabilidade: 2<br>Poder: 5</p>
-      </td>
-      <td style="text-align:center;">
-        <p><b>Luigi</b></p>
-        <img src="./docs/luigi.gif" alt="Luigi" width="60" height="60" />
-        <p>Velocidade: 3<br>Manobrabilidade: 4<br>Poder: 4</p>
-      </td>
-      <td style="text-align:center;">
-        <p><b>Donkey Kong</b></p>
-        <img src="./docs/dk.gif" alt="Donkey Kong" width="60" height="60" />
-        <p>Velocidade: 2<br>Manobrabilidade: 2<br>Poder: 5</p>
-      </td>
-    </tr>
-  </table>
-</p>
+<table>
+  <tr>
+    <td style="text-align:center;">
+      <p><b>Mario</b></p>
+      <img src="./docs/mario.gif" alt="Mario" width="60" height="60" />
+      <p>Velocidade: 4<br>Manobrabilidade: 3<br>Poder: 3</p>
+    </td>
+    <td style="text-align:center;">
+      <p><b>Peach</b></p>
+      <img src="./docs/peach.gif" alt="Peach" width="60" height="60" />
+      <p>Velocidade: 3<br>Manobrabilidade: 4<br>Poder: 2</p>
+    </td>
+    <td style="text-align:center;">
+      <p><b>Yoshi</b></p>
+      <img src="./docs/yoshi.gif" alt="Yoshi" width="60" height="60" />
+      <p>Velocidade: 2<br>Manobrabilidade: 4<br>Poder: 3</p>
+    </td>
+  </tr>
+  <tr>
+    <td style="text-align:center;">
+      <p><b>Bowser</b></p>
+      <img src="./docs/bowser.gif" alt="Bowser" width="60" height="60" />
+      <p>Velocidade: 5<br>Manobrabilidade: 2<br>Poder: 5</p>
+    </td>
+    <td style="text-align:center;">
+      <p><b>Luigi</b></p>
+      <img src="./docs/luigi.gif" alt="Luigi" width="60" height="60" />
+      <p>Velocidade: 3<br>Manobrabilidade: 4<br>Poder: 4</p>
+    </td>
+    <td style="text-align:center;">
+      <p><b>Donkey Kong</b></p>
+      <img src="./docs/dk.gif" alt="Donkey Kong" width="60" height="60" />
+      <p>Velocidade: 2<br>Manobrabilidade: 2<br>Poder: 5</p>
+    </td>
+  </tr>
+</table>
+
+</div>
 
 ---
 
